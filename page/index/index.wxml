@@ -1,0 +1,18 @@
+<navigator url='../list/list' open-type='navigateTo' class='margin_item'>
+  <button type="primary">网络请求和列表</button>
+</navigator>
+<navigator url='../item/item' open-type='navigateTo' class='margin_item'>
+  <button type="primary">list item</button>
+</navigator>
+<navigator url='../banner/banner' open-type='navigateTo' class='margin_item'>
+  <button type="primary">banner</button>
+</navigator>
+<navigator url='../grid/grid' open-type='navigateTo' class='margin_item'>
+  <button type="primary">grid</button>
+</navigator>
+<navigator url='../landscape/landscape' open-type='navigateTo' class='margin_item'>
+  <button type="primary">landscape list</button>
+</navigator>
+<navigator url='../tab/tab' open-type='navigateTo' class='margin_item'>
+  <button type="primary">tab</button>
+</navigator>

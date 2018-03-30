@@ -1,0 +1,23 @@
+<view hover-class='item'>
+  <view class='box' hover-class='item'>
+    <image class='img' src='http://app.infunpw.com/commons/images/cinema/cinema_films/3812.jpg'></image>
+    <view class='container_inner'>
+      <view class='dire'>
+        <text class='title'>头号玩家</text>
+        <image class='icon' src='../../image/v.png'></image>
+      </view>
+      <view class='dire align_yellow'>
+        <text class='yellow_tv'>98175人</text>
+        <text class='tv'>想看</text>
+      </view>
+      <view class='tv'>
+        <text>主演:泰尔.谢利丹，奥利维亚.库克，奥利维亚.库克，奥利维亚.库克，奥利维亚.库克，奥利维亚.库克，奥利维亚.库克，奥利维亚.库克</text>
+      </view>
+      <text class='tv gray'>2018.03.30大陆上映</text>
+    </view>
+    <view class="container-btn">
+      <text class='btn'>按钮</text>
+    </view>
+  </view>
+  <view class='line'></view>
+</view>

@@ -1,0 +1,4 @@
+<view wx:for="{{list}}" class="block" wx:key="authorId">
+  <image src="{{item.authorHead}}" class="pic"></image>
+  <view class='tv'>{{item.authorName}}</view>
+</view>

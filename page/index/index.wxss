@@ -1,0 +1,7 @@
+.tv {
+  color: blue;
+}
+
+.margin_item {
+  margin-top: 16rpx;
+}

@@ -1,0 +1,18 @@
+/* page/landscape/landscape.wxss */
+
+/* .container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+} */
+
+.item {
+  display: inline-block;
+  width: 150rpx;
+  height: 300rpx;
+}
+
+.scroll-view_H {
+  width: '100%';
+  white-space: nowrap;
+}

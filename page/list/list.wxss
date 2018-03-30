@@ -1,0 +1,19 @@
+/* page/list/list.wxss */
+
+.pic {
+  width: 300rpx;
+  height: 300rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+
+.tv {
+  align-self: center;
+  font-size: 44rpx;
+}

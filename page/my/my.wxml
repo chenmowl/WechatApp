@@ -1,0 +1,52 @@
+<view class='box'>
+  <image src='http://img06.tooopen.com/images/20160718/tooopen_sl_170714426116.jpg' class='img'></image>
+  <text class='text'>小振</text>
+</view>
+<view class='split-line'></view>
+<view class='row-box'>
+  <view class='line'></view>
+  <text class='tv-normal tv-margin'>我的订单</text>
+  <view class='line'></view>
+</view>
+<view class='row-box2'>
+  <view class='box-colume' hover-class='colume-hov'>
+    <image src='../../image/m1.png' class='img img2'></image>
+    <text class='tv-normal'>电影</text>
+  </view>
+  <view class='box-colume' hover-class='colume-hov'>
+    <image src='../../image/m2.png' class='img img2'></image>
+    <text class='tv-normal'>演出</text>
+  </view>
+  <view class='box-colume' hover-class='colume-hov'>
+    <image src='../../image/m3.png' class='img img2'></image>
+    <text class='tv-normal'>赛事</text>
+  </view>
+</view>
+<view class='split-line'></view>
+<view class='row-box2 between'>
+  <text class='tv-normal2'>优惠券</text>
+  <image src='../../image/arrow_right.png' class='img3'></image>
+</view>
+<view class='split-line2'></view>
+<view class='row-box2 between'>
+  <text class='tv-normal2'>折扣卡</text>
+  <image src='../../image/arrow_right.png' class='img3'></image>
+</view>
+<view class='split-line2'></view>
+<view class='row-box2 between'>
+  <text class='tv-normal2'>观影卡/票</text>
+  <image src='../../image/arrow_right.png' class='img3'></image>
+</view>
+<view class='split-line'></view>
+<view class='row-box2 between'>
+  <text class='tv-normal2'>想看的电影</text>
+  <image src='../../image/arrow_right.png' class='img3'></image>
+</view>
+<view class='split-line2'></view>
+<view class='row-box2 between'>
+  <text class='tv-normal2'>看过的电影</text>
+  <image src='../../image/arrow_right.png' class='img3'></image>
+</view>
+<view class='box-bottom'>
+   <text class='tv-bottom'>ⓥ猫眼电影 客服电话：</text>
+</view>

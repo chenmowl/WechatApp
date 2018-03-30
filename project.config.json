@@ -1,0 +1,10 @@
+{
+  "pluginRoot": "./plugin",
+  "compileType": "plugin",
+  "setting": {
+    "newFeature": true
+  },
+  "appid": "wxb1a58a7aee6da4b0",
+  "projectname": "Floure",
+  "condition": {}
+}

@@ -1,0 +1,16 @@
+/* page/banner/banner.wxss */
+
+
+.img{
+  width: 100%;
+  background-color: rebeccapurple;
+}
+
+.swip-item{
+  background-color: yellowgreen;
+}
+
+
+.view{
+  width: 100%;
+}

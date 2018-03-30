@@ -1,0 +1,5 @@
+<view class='container'>
+  <view class='item' wx:for="{{arr}}" wx:key='{{item.index}}' style='background-color: {{item.color}};'>
+    <text>item = {{item.index}}</text>
+  </view>
+</view>
