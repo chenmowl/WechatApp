@@ -1,0 +1,6 @@
+<!--page/vertical/vertical.wxml-->
+<swiper autoplay='{{autoplay}}' current="{{current}}" class='swiper' vertical display-multiple-items='1' catchtouchmove='touchmove'>
+  <swiper-item wx:for="{{urls}}" wx:key='{{item}}' class='swip-item'>
+    <view class='img' style='background-color:{{item}}'></view>
+  </swiper-item>
+</swiper>

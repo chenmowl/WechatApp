@@ -7,8 +7,12 @@
     "page/grid/grid",
     "page/landscape/landscape",
     "page/my/my",
-    "page/tab/tab"
-    
+    "page/tab/tab",
+    "page/tangtang_home/video",
+    "page/animation/animation",
+    "page/drawer/drawer",
+    "page/vertical/vertical",
+    "page/vertical/vscroll"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -16,7 +20,7 @@
     "navigationBarTitleText": "小程序",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true
+    "enablePullDownRefresh": false
   },
   "networkTimeout": {
     "request": 20000,

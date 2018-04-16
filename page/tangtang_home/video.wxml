@@ -1,0 +1,26 @@
+<!--page/tangtang_home/video.wxml-->
+<video id="myVideo" src="https://cunchu.big2333.com/Android_STARSNS_video_201802231516150678.mp4"
+  class='video' autoplay='{{true}}' loop="{{true}}" show-center-play-btn="{{isShowBtn}}" controls="{{isShowBtn}}" binderror="videoErrorCallback" event-model="bubble" objectFit="fill">
+
+  <cover-view class="controls">
+    <cover-view class="head" bindtap="play">
+      <cover-image class="img" src="{{header}}" />
+      <cover-view class='name'>@恒泰</cover-view>
+    </cover-view>
+    <cover-view class="description">泰国普吉岛，大海一片汪洋，一两海鸥天空翱翔</cover-view>
+  </cover-view>
+  <cover-view class='container-right'>
+    <cover-view class='inner-container'>
+      <cover-image class="img2" src="../../image/collect.png" />
+      <cover-view class='right-text'>2.3W</cover-view>
+    </cover-view>
+    <cover-view class='inner-container'>
+      <cover-image class="img2" src="../../image/collect.png" />
+      <cover-view class='right-text'>4561</cover-view>
+    </cover-view>
+    <cover-view class='inner-container'>
+      <cover-image class="img2" src="../../image/collect.png" />
+      <cover-view class='right-text'>1.4W</cover-view>
+    </cover-view>
+  </cover-view>
+</video>

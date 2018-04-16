@@ -16,3 +16,21 @@
 <navigator url='../tab/tab' open-type='navigateTo' class='margin_item'>
   <button type="primary">tab</button>
 </navigator>
+<navigator url='../tangtang_home/video' open-type='navigateTo' class='margin_item'>
+  <button type="primary">tang tang video</button>
+</navigator>
+<navigator url='../animation/animation' open-type='navigateTo' class='margin_item'>
+  <button type="primary">animation</button>
+</navigator>
+<navigator url='../drawer/drawer' open-type='navigateTo' class='margin_item'>
+  <button type="primary">抽屉</button>
+</navigator>
+<navigator url='../vertical/vertical' open-type='navigateTo' class='margin_item'>
+  <button type="primary">vertical banner</button>
+</navigator>
+<navigator url='../vertical/vscroll' open-type='navigateTo' class='margin_item'>
+  <button type="primary">vertical scrollview</button>
+</navigator>
+<navigator url='../vertical/vswiper' open-type='navigateTo' class='margin_item'>
+  <button type="primary">undefine</button>
+</navigator>

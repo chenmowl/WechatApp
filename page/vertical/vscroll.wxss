@@ -1,0 +1,12 @@
+/* page/vertical/vscroll.wxss */
+
+.scrollcontainer{
+  height: 100vh;
+  width: 100%;
+}
+
+.item{
+  color: white;
+  height: 100vh;
+  width: 100%;
+}

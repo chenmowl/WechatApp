@@ -1,0 +1,6 @@
+<button type="primary" bindtap="rotate">旋转</button>
+<button type="primary" bindtap="rotateRevorse">反旋转</button>
+<button type="primary" bindtap="translateY">y轴位移</button>
+<button type="primary" bindtap="hidden">隐藏显示</button>
+
+<view class="block {{hidden?'show':'hide'}}" animation="{{animData}}"></view>

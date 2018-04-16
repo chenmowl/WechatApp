@@ -1,0 +1,93 @@
+/* page/tangtang_home/video.wxss */
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+.controls {
+  position: absolute;
+  margin-left: 20rpx;
+  height: auto;
+  width: 70%;
+  color: white;
+  left: 0px;
+  bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16rpx;
+}
+
+.container-right{
+  position: absolute;
+  margin-left: 20rpx;
+  height: auto;
+  width: 24%;
+  color: white;
+  right: 0px;
+  bottom: 1px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150rpx;
+}
+
+.inner-container{
+  display: flex;
+  width: auto;
+  padding-bottom: 20rpx;
+  padding-top: 20rpx;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.description {
+  text-align: left;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  color: white;
+  width: 100%;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+  border: 4rpx solid #fff;
+  border-radius: 100rpx;
+}
+
+.img2 {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  text-align: left;
+  flex: 1;
+  font-size: 34rpx;
+  vertical-align: middle;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: 10rpx;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: left;
+  justify-content: left;
+}
+
+.right-text{
+    font-size: 24rpx;
+}

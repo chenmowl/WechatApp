@@ -1,0 +1,6 @@
+<!--page/vertical/vscroll.wxml-->
+<scroll-view scroll-y enable-back-to-top class='scrollcontainer' bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" >
+  <view id='id{{index}}' wx:for="{{color}}" wx:key="{{item}}" scroll-into-view="id">
+    <view class='item' style="background-color:{{item}}">hello world</view>
+  </view>
+</scroll-view>

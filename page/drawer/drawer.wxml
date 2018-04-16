@@ -1,0 +1,34 @@
+<!--button-->
+<view class="btn" bindtap="powerDrawer" data-statu="open">button</view>
+<!--mask-->
+<view class="drawer_screen" bindtap="powerDrawer" data-statu="close" wx:if="{{showModalStatus}}"></view>
+<!--content-->
+<!--使用animation属性指定需要执行的动画-->
+<view animation="{{animationData}}" class="drawer_attr_box" wx:if="{{showModalStatus}}">
+  <!--drawer content-->
+  <view class="drawer_content">
+    <view class='conment-title'>
+      <view class='title-tv'>全部评论</view>
+      <view class='close-container' bindtap='powerDrawer' data-statu="close">
+        <image src='../../image/close.png' class='close'></image>
+      </view>
+    </view>
+    <view class='list'>
+      <scroll-view class='scroll' scroll-y="{{true}}">
+        <view wx:for="{{arr}}" wx:key="{{item}}">
+          <view class='item-comment line'>
+            <image class='circleimage' src="{{header}}"></image>
+            <view class='item-content-container'>
+              <text class='item-name'>墨丘利</text>
+              <text class='item-content'>胜利曙光现予黎明</text>
+              <text class='item-time'>1小时前</text>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="weui-cell_input">
+      <input class="weui-input" maxlength="20" placeholder="有什么想说的，快点对ta说" />
+    </view>
+  </view>
+</view>
